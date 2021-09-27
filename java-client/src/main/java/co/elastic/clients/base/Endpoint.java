@@ -191,5 +191,9 @@ public interface Endpoint<RequestT, ResponseT, ErrorT> {
     public boolean getResult(int statusCode) {
       return statusCode < 400;
     }
+    
+    public void checkChanges_krishna() {
+	  	System.out.println("This change is done by Satender-1.1");
+	  }
   }
 }
