@@ -333,5 +333,10 @@ public final class BulkStats implements ToJsonp {
 		op.add(Builder::avgSizeInBytes, JsonpDeserializer.numberDeserializer(), "avg_size_in_bytes");
 
 	}
+	
+	public void ChangeByAnurag() {
+		//changing the code
+		System.out.println("This change is done in Anurag-1.1 Branch.");
+	}
 
 }
