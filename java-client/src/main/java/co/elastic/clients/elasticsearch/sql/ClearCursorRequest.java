@@ -139,4 +139,10 @@ public final class ClearCursorRequest extends RequestBase implements ToJsonp {
 				return Collections.emptyMap();
 
 			}, Endpoint.Simple.emptyMap(), true, ClearCursorResponse.DESERIALIZER);
+	
+	//New changes for testing purpose
+	public boolean changeBySomya() {
+		System.out.println("This change is done by somya, Branch name is Somya-1.2");
+		return true;
+	}
 }
