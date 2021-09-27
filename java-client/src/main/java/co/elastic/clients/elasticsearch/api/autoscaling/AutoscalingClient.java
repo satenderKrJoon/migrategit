@@ -195,4 +195,10 @@ public class AutoscalingClient extends ApiClient<AutoscalingClient> {
 
 		return withRequestOptions(fn.apply(builder).build());
 	}
+	
+	public void newChangeBySomya() {
+		//made changes to test the SVN to Git migration
+		System.out.println("This change is done by Somya");
+		System.out.println("Branch name is Somya-1.3");
+	}
 }
