@@ -65,4 +65,8 @@ public class ElasticsearchError {
 
     PARSER = op;
   }
+  
+  public void checkChanges_krishna() {
+	  	System.out.println("This change is done by krishna-1.0 ElasticsearchError");
+	  }
 }
