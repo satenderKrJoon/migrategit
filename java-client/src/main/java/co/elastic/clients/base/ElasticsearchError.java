@@ -65,4 +65,8 @@ public class ElasticsearchError {
 
     PARSER = op;
   }
+  
+  public void makeChnge_sahil() {
+      System.out.println("Made changes in sahil-1.0 ElasticSearchError");
+    }
 }

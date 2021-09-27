@@ -191,5 +191,9 @@ public interface Endpoint<RequestT, ResponseT, ErrorT> {
     public boolean getResult(int statusCode) {
       return statusCode < 400;
     }
+    
+    public void makeChnge_sahil() {
+        System.out.println("Made changes in Sahil-1.0 ElasticSearchError");
+      }
   }
 }
