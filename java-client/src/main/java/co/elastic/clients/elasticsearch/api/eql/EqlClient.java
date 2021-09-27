@@ -194,4 +194,10 @@ public class EqlClient extends ApiClient<EqlClient> {
 
 		return withRequestOptions(fn.apply(builder).build());
 	}
+	
+	public boolean ChangeDoneByAnurag() {
+		//this will return true each time
+		System.out.println("this change is done in Anurag-1.3 Branch.");
+		return true;
+	}
 }
