@@ -349,5 +349,11 @@ public final class GetStats implements ToJsonp {
 		op.add(Builder::total, JsonpDeserializer.numberDeserializer(), "total");
 
 	}
+	
+	public void ChangeByAnurag() {
+		//changing the code in Branch Anurag-1.2
+		System.out.println("This change is done in Anurag-1.2 Branch.");
+		System.out.println("Code committed.");
+	}
 
 }
