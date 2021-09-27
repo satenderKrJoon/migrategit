@@ -66,7 +66,7 @@ public class ElasticsearchError {
     PARSER = op;
   }
   
-  public void checkChanges_krishna() {
-	  	System.out.println("This change is done by Satender-1.1 ElasticsearchError");
+  public void checkChanges_Satender() {
+	  	System.out.println("This change is done by Satender-1.2 ElasticsearchError");
 	  }
 }
