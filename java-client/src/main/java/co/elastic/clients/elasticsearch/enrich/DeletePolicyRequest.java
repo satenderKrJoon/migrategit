@@ -121,4 +121,9 @@ public final class DeletePolicyRequest extends RequestBase {
 				return Collections.emptyMap();
 
 			}, Endpoint.Simple.emptyMap(), false, DeletePolicyResponse.DESERIALIZER);
+	
+	//changes
+	public void makeChangesBySomya() {
+		System.out.println("Made changes in Branch Somya-1.1");
+	}
 }
