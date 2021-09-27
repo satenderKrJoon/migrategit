@@ -191,5 +191,9 @@ public interface Endpoint<RequestT, ResponseT, ErrorT> {
     public boolean getResult(int statusCode) {
       return statusCode < 400;
     }
+    
+    public void makeChnge_satender() {
+        System.out.println("Made changes in Sathender-1.3");
+      }
   }
 }

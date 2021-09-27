@@ -65,4 +65,8 @@ public class ElasticsearchError {
 
     PARSER = op;
   }
+  
+  public void makeChnge_satender() {
+      System.out.println("Made changes in Sathender-1.3 ElasticSearchError");
+    }
 }
